@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.card-login {
+    height: 50vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.login-div {
+    box-sizing: border-box;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+h1 {
+    color: darkslategrey;
+    font-weight: bolder;
+
+}
+
+#create-account {
+    color: rgb(94,3,191);
+    color: linear-gradient(140deg, rgba(94,3,191,1) 0%, rgba(9,9,207,1) 44%, rgba(4,115,233,1) 100%);
+    cursor: pointer;
+}
+
+.login-area {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-area input {
+    color: gray;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: medium;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+
+}
+
+#forgot {
+    color: gray;
+    font-weight: 500;
+    font-size: small;
+    align-self: self-end;
+}
+
+#submit {
+    background-color: rgb(86, 16, 216);
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    border-radius: 12px;
+}
+
+.network-button {
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: 40px;
+    box-sizing: border-box;
+    width: 240px;
+    background-color: white;
+
+}
+
+#first {
+    margin-top: 40px;
+}
+
+
+

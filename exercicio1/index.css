@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: red;
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content"
+    "sidebar content content";
+
+}
+
+
+div {
+    text-align: center;
+}
+
+#header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: brown;
+
+}
+
+#content {
+    grid-area: content;
+    background-color: #fff;
+}
